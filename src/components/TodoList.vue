@@ -27,7 +27,8 @@
         </div>
 
         <div>
-            <transition name="fade" enter-active-class="animated fadeInUp" leave-active-class="animated fadeOutDown" >
+
+            <transition name="fade" enter-active-class="animated fadeInUp" leave-active-class="animated fadeOutDown">
                 <button v-if="showClearButton" @click="clearAllCompleted"> Clear completed</button>
             </transition>
         </div>
@@ -182,7 +183,7 @@ export default {
     .todo-checkbox {
         cursor: pointer;
     }
-
+    
     .remove-item {
         cursor: pointer;
         margin-left: 14px;
